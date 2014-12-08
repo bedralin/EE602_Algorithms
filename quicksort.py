@@ -20,8 +20,8 @@ def quicksort(A,p,r):
 	quicksort(A,p,q-1)
 	quicksort(A,q+1,r)
 
-A=[3,1,6,9,2,4]
-A=[1,2,3,4,5,6]
+A=[3,1,-5,-10,4,11,6,9,2,4]
+#A=[1,2,3,4,5,6]
 p = 0 
 r=len(A)-1
 print "A was:",A
